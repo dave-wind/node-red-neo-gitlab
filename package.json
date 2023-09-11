@@ -1,0 +1,25 @@
+{
+  "name": "node-red-neo-gitlab",
+  "version": "0.1.0",
+  "description": "Node-RED node using GitLab APIs",
+  "dependencies": {
+    "gitlab": "^4.0.0"
+  },
+  "keywords": [
+    "node-red",
+    "nodered",
+    "gitlab",
+    "git"
+  ],
+  "node-red": {
+    "nodes": {
+      "gitlab": "gitlab.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dave-wind/node-red-neo-gitlab"
+  },
+  "author": "dave-wind",
+  "license": "MIT"
+}
